@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useEffect, useState} from 'react'
-const API_URL =  "/api"
+const API_URL =  process.env.REACT_APP_API_URL
 
 function App() {
   const [obj, setObj] = useState(null)
